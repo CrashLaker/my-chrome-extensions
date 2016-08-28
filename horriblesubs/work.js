@@ -7,7 +7,7 @@ void 0===c?d&&"get"in d&&null!==(e=d.get(a,b))?e:(e=n.find.attr(a,b),null==e?voi
 $("div[class*=1080p]").find("a").each(function (){
 	if ($(this).attr("title") == "Magnet Link"){
 		$(this)[0].click();
-		sleep(300);
+		sleep(600);
 	}
 });
 
