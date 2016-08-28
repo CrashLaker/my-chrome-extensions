@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "Tosarang Enlarge div",
+	"description": "",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png"
+	},
+	"background": {
+        "scripts": ["lol.js"]
+    },
+	"permissions": [
+	"activeTab"
+	],
+	"content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["work.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
